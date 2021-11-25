@@ -702,6 +702,12 @@ window.esdocSearchIndex = [
     "method"
   ],
   [
+    "src/jira.js~jiraapi#getpaginatedversions",
+    "class/src/jira.js~JiraApi.html#instance-method-getPaginatedVersions",
+    "src/jira.js~JiraApi#getPaginatedVersions",
+    "method"
+  ],
+  [
     "src/jira.js~jiraapi#getproject",
     "class/src/jira.js~JiraApi.html#instance-method-getProject",
     "src/jira.js~JiraApi#getProject",

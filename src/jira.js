@@ -562,6 +562,20 @@ export default class JiraApi {
     })));
   }
 
+  /** Get Paginated Versions for a project
+   * [Jira Doc](https://developer.atlassian.com/cloud/jira/platform/rest/v2/api-group-project-versions/)
+   * @name getPaginatedVersions
+   * @function
+   * @param {string} project - A project key to get versions for
+   * @param {object} query - Query string parameters
+   */
+  getPaginatedVersions(project, query) {
+    return this.doRequest(this.makeRequestHeader(this.makeUri({
+      pathname: `/project/${project}/version`,
+      query: query,
+    })));
+  }
+
   /** Get details of single Version in project
    * [Jira Doc](https://docs.atlassian.com/jira/REST/cloud/#api/2/version-getVersion)
    * @name getVersion
