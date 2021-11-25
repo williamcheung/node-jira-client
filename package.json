@@ -17,10 +17,9 @@
   "engine": {
     "node": ">=10.0.0"
   },
-  "main": "./lib/jira.js",
+  "main": "./src/jira.js",
   "files": [
-    "lib",
-    "docs",
+    "src",
     "LICENSE.md",
     "README.md"
   ],
